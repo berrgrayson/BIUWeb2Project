@@ -1,0 +1,107 @@
+/* Styles généraux */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Styles spécifiques à l'en-tête */
+header {
+    background-color: #8B4513;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+  
+.logo img {
+    width: 80px;
+    margin-right: -15px;
+}
+
+.logo h1 {
+    color: rgba(0, 255, 255, 0.692);
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav li a {
+    color: #D2B48C;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    color: rgba(0, 255, 255, 0.842);
+}
+
+#current {
+    color: rgba(0, 255, 255, 0.842);
+    font-weight: bold;
+}
+
+
+/* Styles spécifiques au pied de page */
+footer {
+    background-color: #8B4513;
+    color: #D2B48C;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer .colonne {
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+footer h3 {
+    font-size: 1.3rem;
+    text-align: center;
+    color: #ebcea8;
+}
+
+footer p {
+    font-size: 1rem;
+    text-align: center;
+    color: #D2B48C;
+}
+
+@media(max-width: 720px) {
+    footer .row {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    header {
+        background-color: #8B4513;
+        color: #fff;
+        display: grid;
+        grid-template-columns: 1 fr;
+        padding-left: 20px;
+        padding-right: 40px;
+    }
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+}
