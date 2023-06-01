@@ -87,7 +87,7 @@ footer p {
     color: #D2B48C;
 }
 
-@media(max-width: 720px) {
+@media(max-width: 890px) {
     footer .row {
         display: grid;
         grid-template-columns: 1fr;

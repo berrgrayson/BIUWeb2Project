@@ -19,11 +19,11 @@
             </div>
             <nav>
                 <ul>
-                    <li><a id="current" href="accueil.html">Accueil</a></li>
-                    <li><a href="apropos.html">À propos de nous</a></li>
-                    <li><a href="produits.html">Produits</a></li>
-                    <li><a href="commander.html">Commander</a></li>
-                    <li><a href="contactnous.html">Contactez-nous</a></li>
+                    <li><a href="accueil.php">Accueil</a></li>
+                    <li><a href="apropos.php">À propos de nous</a></li>
+                    <li><a id="current" href="produits.php">Produits</a></li>
+                    <li><a href="commander.php">Commander</a></li>
+                    <li><a href="contactnous.php">Contactez-nous</a></li>
                 </ul>
             </nav>
         </header>
